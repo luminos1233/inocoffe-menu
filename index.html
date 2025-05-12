@@ -2,99 +2,110 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Ino Coffee - Menu</title>
+  <title>INO COFFEE Menu</title>
   <style>
     body {
-      background-color: #4e342e;
-      color: white;
+      background-color: #000;
+      color: #f5c948;
       font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
+      padding: 40px;
     }
-    .header {
+
+    h1 {
       text-align: center;
-      padding: 30px;
-      font-size: 30px;
+      font-size: 48px;
       font-weight: bold;
+      margin-bottom: 30px;
     }
-    .section {
-      padding: 20px;
+
+    .menu-section {
+      margin-bottom: 30px;
     }
-    h2 {
-      border-bottom: 2px solid white;
-      padding-bottom: 5px;
+
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
-    ul {
-      list-style: none;
-      padding-left: 0;
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      max-width: 300px;
     }
-    li {
-      margin: 8px 0;
+
+    .menu-category {
+      display: inline-block;
+      margin-right: 50px;
+      vertical-align: top;
+    }
+
+    .menu-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
     }
   </style>
 </head>
 <body>
-  <div class="header">Ino Coffee</div>
 
-  <div class="section">
-    <h2>Coffee</h2>
-    <ul>
-      <li>Espresso - 13k</li>
-      <li>Coffee Ino - 15k</li>
-      <li>Americano (Hot) - 15k</li>
-      <li>Kopi Hitam Tubruk - 15k</li>
-      <li>Kopi Jahe - 13k</li>
-      <li>Kopi Susu Jahe - 15k</li>
-      <li>Cappuccino Hot - 17k</li>
-    </ul>
+  <h1>INO COFFEE</h1>
+
+  <div class="menu-container">
+    <div class="menu-category">
+      <div class="menu-section">
+        <div class="section-title">COFFEE</div>
+        <div class="menu-item"><span>Kopi Hitam</span><span>13 k</span></div>
+        <div class="menu-item"><span>Kopi Susu</span><span>13 k</span></div>
+        <div class="menu-item"><span>Kopi Tubruk</span><span>13 k</span></div>
+        <div class="menu-item"><span>Coffee Ino</span><span>15 k</span></div>
+        <div class="menu-item"><span>Vietnam Drip</span><span>15 k</span></div>
+        <div class="menu-item"><span>Americano</span><span>13 k</span></div>
+      </div>
+
+      <div class="menu-section">
+        <div class="section-title">COLD DRINK</div>
+        <div class="menu-item"><span>Cappuccino</span><span>10 k</span></div>
+        <div class="menu-item"><span>Milo</span><span>10 k</span></div>
+        <div class="menu-item"><span>Josu</span><span>10 k</span></div>
+        <div class="menu-item"><span>Lemon Tea</span><span>12 k</span></div>
+        <div class="menu-item"><span>Thaitea Green</span><span>17 k</span></div>
+        <div class="menu-item"><span>Thaitea</span><span>17 k</span></div>
+        <div class="menu-item"><span>Air mineral</span><span>5 k</span></div>
+      </div>
+    </div>
+
+    <div class="menu-category">
+      <div class="menu-section">
+        <div class="section-title">HOT DRINK</div>
+        <div class="menu-item"><span>Teh Manis</span><span>7 k</span></div>
+        <div class="menu-item"><span>Teh Susu</span><span>10 k</span></div>
+        <div class="menu-item"><span>Teh Tropicana</span><span>8 k</span></div>
+        <div class="menu-item"><span>Cokiat</span><span>12 k</span></div>
+        <div class="menu-item"><span>Dancow</span><span>10 k</span></div>
+        <div class="menu-item"><span>Milo</span><span>10 k</span></div>
+        <div class="menu-item"><span>Lemon Tea</span><span>12 k</span></div>
+        <div class="menu-item"><span>Nutrisari</span><span>8 k</span></div>
+      </div>
+
+      <div class="menu-section">
+        <div class="section-title">SNACK</div>
+        <div class="menu-item"><span>Roti Bakar (All)</span><span>15 k</span></div>
+        <div class="menu-item"><span>Roti Mentega Gula</span><span>12 k</span></div>
+        <div class="menu-item"><span>Pisang Goreng</span><span>15 k</span></div>
+        <div class="menu-item"><span>Ubi Goreng</span><span>15 k</span></div>
+      </div>
+
+      <div class="menu-section">
+        <div class="section-title">FOOD</div>
+        <div class="menu-item"><span>Paket Ayam Goreng Mentega</span><span>22/30 k</span></div>
+        <div class="menu-item"><span>Ayam Goreng Rica Iloni</span><span>22/30 k</span></div>
+        <div class="menu-item"><span>Paket ayam bakar</span><span>22/30 k</span></div>
+        <div class="menu-item"><span>Tongseng Ayam</span><span>25 k</span></div>
+        <div class="menu-item"><span>Tongseng Daging</span><span>20 k</span></div>
+      </div>
+    </div>
   </div>
 
-  <div class="section">
-    <h2>Hot Drink</h2>
-    <ul>
-      <li>Teh Manis - 7k</li>
-      <li>Teh Tropicana - 8k</li>
-      <li>Teh Hijau Kecil - 7k / Besar - 10k</li>
-      <li>Hot Chocolate - 10k</li>
-      <li>Dancow (Coklat/Putih) - 10k</li>
-      <li>Hot Lemon Tea - 12k</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Cold Drink</h2>
-    <ul>
-      <li>Aqua - 5k</li>
-      <li>Es Milo Single - 10k / Double - 15k</li>
-      <li>Es Thaitea - 17k</li>
-      <li>Es Thaitea Green - 17k</li>
-      <li>Es Teh - 8k</li>
-      <li>Es Teh Susu - 12k</li>
-      <li>Jus Alpukat / Naga / Sirsak / Mangga - 20k</li>
-      <li>Jus Mix Naga - 25k</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Snack</h2>
-    <ul>
-      <li>Pisang Paket - 15k</li>
-      <li>Roti Bakar (All Variant) - 17k</li>
-      <li>Roti Gula - 12k</li>
-      <li>Roti Mentega Gula - 12k</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Food</h2>
-    <ul>
-      <li>Mie Ceplok - 15k</li>
-      <li>Tongseng Ayam - 22k</li>
-      <li>Tongseng Daging - 25k</li>
-      <li>Ayam Bakar Rica Iloni - 22k / Jumbo - 30k</li>
-      <li>Ayam Goreng Mentega - 22k / Jumbo - 30k</li>
-      <li>Ayam Bakar - 22k / Jumbo - 30k</li>
-    </ul>
-  </div>
 </body>
 </html>
